@@ -1,0 +1,94 @@
+/* General Body style */
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* Navbar styles */
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    margin-top: 20px;
+  }
+
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+.topnav a.split {
+    float: right;
+    background-color: white;
+    color: gray;
+  }
+
+
+
+  /* All Your File in One Place styles */
+
+
+  /* Stay Productive Style */
+
+
+  /* Testimonial style */
+
+
+  /* Footer style */
+  .footer{
+    background-color: #241449;
+    color: white;
+    padding: 50px 0;
+  }
+
+.footer-col1{
+    margin-left: 15px; 
+}
+
+.footer-logo{
+    text-decoration: none;
+    color: white;
+}
+.footer-logo:hover{
+    color: white;
+  }
+
+.ft-dv{
+    margin-bottom: 30px;
+}
+
+.ft-col{
+    
+}
+
+  .footer-img{
+    
+    margin-right: 10px;
+  }
+
+  .footer-h1{
+    margin: 0;
+    display: inline-block;
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+  }
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+.footer-link:hover{
+    color: rgb(91, 80, 136);
+}
+
+
+
+  /* At media styles */
