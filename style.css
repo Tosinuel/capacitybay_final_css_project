@@ -31,7 +31,87 @@
 
 
   /* All Your File in One Place styles */
+  .containerSctn1{
+    display: flex;
+    gap: 1%;
+    padding-top: 5%;
+   
+}
+.illus1{
+    width: 600px;
+    height: 400px;
+    padding-right: 23%;
+}
+h1{
+    font-size: 40px;
+    padding-top: 8%;
+    line-height: 60px;
+    padding-left: 20%;
+   
+}
+section p{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 30px;
+    padding-inline-end: 5%;
+    padding-left: 20%;
+    
+}
+.inp{
+    display: flex;
+    gap: 2%;
+    padding-left: 20%;
+}
+input{
+    height: 45px;
+    width: 300px;
+    border-radius: 3px;
+    border-color: rgb(219, 216, 216);
+    border-width: 1px;
+    font-size: 16px;
+    font-family:'Poppins', sans-serif; 
+    padding-left: 5%;
+    box-shadow: none;
+    overflow: hidden;
+    padding-left: 5%;
+  
+}
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {display: inline-block;}
+  ul li:hover {background: rgb(255, 255, 255);}
+  ul li:hover ul {display: block;}
+  ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+  ul li ul li { 
+    background: rgb(255, 255, 255); 
+    display: block; 
+    color: red;
+  }
 
+input:hover{
+    border-color: red;
+    
+}
+.btn{
+    width: 200px;
+    background-color:rgb(47,101,249);
+    height: 45px;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+}
+.btn:hover{
+     background-color: rgb(107,155,255) ;
+     cursor: pointer;
+}
 
   /* Stay Productive Style */
 
