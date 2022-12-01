@@ -33,6 +33,7 @@
   /* All Your File in One Place styles */
   .containerSctn1{
     display: flex;
+    flex-direction: row-reverse;
     gap: 1%;
     padding-top: 5%;
    
@@ -40,13 +41,13 @@
 .illus1{
     width: 600px;
     height: 400px;
-    padding-right: 23%;
+    padding-right: 24%;
 }
 .heading{
     font-size: 40px;
     padding-top: 8%;
     line-height: 60px;
-    padding-left: 20%;
+    margin-left: 17%;
    
 }
 .parag{
@@ -54,13 +55,13 @@
     text-align: justify;
     line-height: 30px;
     padding-inline-end: 5%;
-    padding-left: 20%;
+    margin-left: 17%;
     
 }
 .inp{
     display: flex;
     gap: 0.5%;
-    padding-left: 20%;
+    margin-left: 17%;
 }
 .putin{
     height: 45px;
@@ -83,7 +84,7 @@
     padding: 0;
   }
   .ulContainer .li- {display: inline-block;}
-  .ulContainer .li-:hover {background: rgb(248, 248, 248);}
+  /* .ulContainer .li-:hover {background: rgb(248, 248, 248);} */
   .ulContainer .li-:hover ul {display: block;}
   .ulContainer .li- .ul- {
     position: absolute;
@@ -174,3 +175,178 @@
 
 
   /* At media styles */
+  /* section 1 */
+  @media (min-width: 320px) and (max-width: 760px) {
+    .containerSctn1{
+      display: block;
+      gap: 1%;
+      padding-top: 5%;
+      text-align: center;
+     
+  }
+  .illus1{
+      width: 420px;
+      height: 250px;
+      margin-left: 10%;
+      text-align: center;
+      /* padding-right: 24%; */
+  }
+  .heading{
+      font-size: 30px;
+      padding-top: 8%;
+      line-height: 30px;
+      margin-left: 4%;
+     
+  }
+  .parag{
+      font-size: 16px;
+      text-align: center;
+      line-height: 15px;
+      padding-inline-end: 5%;
+      margin-left: 7%;
+      margin-right: 4%;
+      
+  }
+  .inp{
+      display: block;
+      margin-left: 2%;
+      line-height:4 ;
+      text-align: center;
+  }
+  .putin{
+      height: 45px;
+      width: 340px;
+      border-radius: 3px;
+      border-color: rgb(24, 23, 23);
+      border-width: 1px;
+      font-size: 16px;
+      font-family:'Poppins', sans-serif; 
+    
+      box-shadow: none;
+      overflow: hidden;
+     
+      text-align: left;
+    
+  }
+  .ulContainer {
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+    .ulContainer .li- {display: inline-block;}
+   
+    .ulContainer .li-:hover ul {display: block;}
+    .ulContainer .li- .ul- {
+      position: absolute;
+      width: 200px;
+      display: none;
+    }
+    .ulContainer .li- .ul- .li-- { 
+     
+      display: block; 
+      color: red;
+    }
+  
+  .putin:hover{
+      border-color: red;
+      
+  }
+  .btn{
+      width: 340px;
+      background-color:rgb(47,101,249);
+      height: 45px;
+      border: none;
+      color: white;
+      text-align: center;
+      border-radius: 3px;
+  }
+  .btn:hover{
+       background-color: rgb(159, 185, 241) ;
+       cursor: pointer;
+       color: white;
+  }
+  }
+  @media (min-width: 700px) and (max-width: 1300px) {
+    .containerSctn1{
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 1%;
+      padding-top: 5%;
+     
+  }
+  .illus1{
+      width: 400px;
+      height:400px;
+      padding-right: 15%;
+  
+  }
+  .heading{
+      font-size: 35px;
+      padding-top: 8%;
+      line-height: 30px;
+      margin-left: 20%;
+     
+  }
+  .parag{
+      font-size: 18px;
+      text-align: justify;
+      line-height: 30px;
+      padding-inline-end: 5%;
+      margin-left: 20%;
+      
+  }
+  .inp{
+      display: flex;
+      gap: 0.5%;
+      margin-left: 20%;
+  }
+  .putin{
+      height: 45px;
+      width: 220px;
+      border-radius: 3px;
+      border-color: rgb(219, 216, 216);
+      border-width: 1px;
+      font-size: 16px;
+      font-family:'Poppins', sans-serif; 
+      box-shadow: none;
+      overflow: hidden;
+      text-align: left;
+    
+  }
+  .ulContainer {
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+    .ulContainer .li- {display: inline-block;}
+    .ulContainer .li-:hover ul {display: block;}
+    .ulContainer .li- .ul- {
+      position: absolute;
+      width: 200px;
+      display: none;
+    }
+    .ulContainer .li- .ul- .li-- { 
+      background: rgb(255, 255, 255); 
+      display: block; 
+      color: red;
+    }
+  
+  .putin:hover{
+      border-color: red;
+      
+  }
+  .btn{
+      width: 120px;
+      background-color:rgb(47,101,249);
+      height: 45px;
+      border: none;
+      color: white;
+      text-align: center;
+      border-radius: 3px;
+  }
+  .btn:hover{
+       background-color: rgb(159, 185, 241) ;
+       cursor: pointer;
+       color: white;
+  }
+  }
