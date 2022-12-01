@@ -37,7 +37,51 @@
 
 
   /* Testimonial style */
+  .news{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(87,89,137);
+    display: flex;
+  }
 
+  .left{
+    flex: 50%;
+    display: inline-block;
+    padding: 60px 250px 0px 60px;
+  }
+
+  .left1{
+    font-size: 25px;
+    color: #ffff;
+  }
+
+  .left2{
+    font-size: 13px;
+    color: #b8b2b2;
+  }
+
+  .right{
+    flex: 50%;
+    display: inline-block;
+    padding: 60px 0px 0px 40px;
+  }
+
+  .right1{
+    width: 500px;
+    height: 35px;
+    padding-left: 20px;
+    font-size: 12px;
+    border: none;
+  }
+
+  .right2{
+    width: 150px;
+    height: 35px;
+    background-color: rgb(108,156,255);
+    color: #ffff;
+    font-size: 12px;
+    border: none;
+  }
 
   /* Footer style */
   .footer{
