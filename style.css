@@ -37,6 +37,59 @@
 
 
   /* Testimonial style */
+  .testimonial{
+    margin-bottom: 75px;
+    margin-left: 40px;
+  }
+  .test-head{
+    color: rgb(53, 212, 191);
+    text-decoration: underline;
+   font-weight: light;
+   position: relative;
+   bottom: 20px;
+  
+  }
+  .test-head:hover{
+    cursor:pointer;
+  }
+  .test{
+    background-color:white;
+    width: 300px;
+    height: 200px;
+    box-shadow: 1px 1px 1px 2px whitesmoke;
+    
+  }
+  .tes-pg{
+    padding: 5px;
+    margin: 3px;
+  }
+  .test-pg{
+    font-size: 13px;
+    word-spacing: 3px;
+    padding: 7px;
+    line-height: 20px;
+  }
+  .tes-img{
+    border-radius: 50%;
+    height: 45px;
+    position: relative;
+    display: inline;
+    left: 15px;
+  }
+  .test-img{
+    position: relative;
+    bottom: 45px;
+    left: 70px;
+    font-size: 12px;
+  }
+  .test-final{
+    position: relative;
+    bottom: 50px;
+    padding: auto;
+    left: 70px;
+    font-size: 9px;
+    font-weight: bold;
+  }
 
 
   /* Footer style */
