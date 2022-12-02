@@ -1,352 +1,348 @@
 /* General Body style */
-*{
-    font-family: 'Roboto', sans-serif;
-
+* {
+  font-family: "Roboto", sans-serif;
 }
 
 /* Navbar styles */
 .topnav {
-    overflow: hidden;
-    background-color: white;
-    margin-top: 20px;
-  }
+  overflow: hidden;
+  background-color: white;
+  margin-top: 20px;
+}
 
-  
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
 .topnav a.split {
-    float: right;
-    background-color: white;
-    color: gray;
-  }
+  float: right;
+  background-color: white;
+  color: gray;
+}
 
-
-
-  /* All Your File in One Place styles */
-  .containerSctn1{
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 1%;
-    padding-top: 5%;
-   
+/* All Your File in One Place styles */
+.containerSctn1 {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1%;
+  padding-top: 5%;
 }
-.illus1{
-    width: 600px;
-    height: 400px;
-    padding-right: 24%;
+.illus1 {
+  width: 600px;
+  height: 400px;
+  padding-right: 24%;
 }
-.heading{
-    font-size: 40px;
-    padding-top: 8%;
-    line-height: 60px;
-    margin-left: 17%;
-   
+.heading {
+  font-size: 40px;
+  padding-top: 8%;
+  line-height: 60px;
+  margin-left: 17%;
 }
-.parag{
-    font-size: 18px;
-    text-align: justify;
-    line-height: 30px;
-    padding-inline-end: 5%;
-    margin-left: 17%;
-    
+.parag {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 30px;
+  padding-inline-end: 5%;
+  margin-left: 17%;
 }
-.inp{
-    display: flex;
-    gap: 0.5%;
-    margin-left: 17%;
+.inp {
+  display: flex;
+  gap: 1.5%;
+  margin-left: 17%;
 }
-.putin{
-    height: 45px;
-    width: 350px;
-    border-radius: 3px;
-    border-color: rgb(219, 216, 216);
-    border-width: 1px;
-    font-size: 16px;
-    font-family:'Poppins', sans-serif; 
-    /* padding-left: 2%; */
-    box-shadow: none;
-    overflow: hidden;
-    /* padding-left: 2%; */
-    text-align: left;
-  
+.putin {
+  height: 45px;
+  width: 350px;
+  border-radius: 3px;
+  border-color: rgb(219, 216, 216);
+  border-width: 1px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  box-shadow: none;
+  overflow: hidden;
+  text-align: left;
 }
 .ulContainer {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+.ulContainer .li- {
+  display: inline-block;
+}
+.ulContainer .li-:hover ul {
+  display: block;
+}
+.ulContainer .li- .ul- {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+.ulContainer .li- .ul- .li-- {
+  background: rgb(255, 255, 255);
+  display: block;
+  color: red;
+}
+
+input[type="text"] {
+  padding: 20px;
+}
+.input-control input:focus {
+  outline: 0;
+}
+.input-control.error input {
+  border-color: #ff3860;
+}
+.input-control .error {
+  color: #ff3860;
+  font-size: 15px;
+  height: 13px;
+}
+
+::placeholder {
+  padding: 10px;
+}
+.btn {
+  width: 180px;
+  background-color: rgb(47, 101, 249);
+  height: 45px;
+  border: none;
+  color: white;
+  text-align: center;
+  border-radius: 3px;
+}
+.btn:hover {
+  background-color: rgb(159, 185, 241);
+  cursor: pointer;
+  color: white;
+}
+
+/* Stay Productive Style */
+
+/* Testimonial style */
+
+/* Footer style */
+.footer {
+  background-color: #241449;
+  color: white;
+  padding: 50px 0;
+}
+
+.footer-col1 {
+  margin-left: 15px;
+}
+
+.footer-logo {
+  text-decoration: none;
+  color: white;
+}
+.footer-logo:hover {
+  color: white;
+}
+
+.ft-dv {
+  margin-bottom: 30px;
+}
+
+.ft-col {
+}
+
+.footer-img {
+  margin-right: 10px;
+}
+
+.footer-h1 {
+  margin: 0;
+  display: inline-block;
+  font-size: 50px;
+  position: relative;
+  top: 10px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+.footer-link:hover {
+  color: rgb(91, 80, 136);
+}
+
+/* At media styles */
+/* section 1 */
+@media (min-width: 320px) and (max-width: 760px) {
+  .containerSctn1 {
+    display: block;
+    gap: 1%;
+    padding-top: 5%;
+    text-align: center;
+  }
+  .illus1 {
+    width: 420px;
+    height: 250px;
+    margin-left: 10%;
+    text-align: center;
+    /* padding-right: 24%; */
+  }
+  .heading {
+    font-size: 30px;
+    padding-top: 8%;
+    line-height: 30px;
+    margin-left: 4%;
+  }
+  .parag {
+    font-size: 16px;
+    text-align: center;
+    line-height: 15px;
+    padding-inline-end: 5%;
+    margin-left: 7%;
+    margin-right: 4%;
+  }
+  .inp {
+    display: block;
+    margin-left: 2%;
+    line-height: 4;
+    text-align: center;
+  }
+  .putin {
+    height: 45px;
+    width: 340px;
+    border-radius: 3px;
+    border-color: rgb(24, 23, 23);
+    border-width: 1px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+
+    box-shadow: none;
+    overflow: hidden;
+
+    text-align: left;
+  }
+  .ulContainer {
     display: inline;
     margin: 0;
     padding: 0;
   }
-  .ulContainer .li- {display: inline-block;}
-  /* .ulContainer .li-:hover {background: rgb(248, 248, 248);} */
-  .ulContainer .li-:hover ul {display: block;}
+  .ulContainer .li- {
+    display: inline-block;
+  }
+
+  .ulContainer .li-:hover ul {
+    display: block;
+  }
   .ulContainer .li- .ul- {
     position: absolute;
     width: 200px;
     display: none;
   }
-  .ulContainer .li- .ul- .li-- { 
-    background: rgb(255, 255, 255); 
-    display: block; 
+  .ulContainer .li- .ul- .li-- {
+    display: block;
     color: red;
   }
 
-.putin:hover{
+  .putin:hover {
     border-color: red;
-    
-}
-.btn{
-    width: 180px;
-    background-color:rgb(47,101,249);
+  }
+  .btn {
+    width: 340px;
+    background-color: rgb(47, 101, 249);
     height: 45px;
     border: none;
     color: white;
     text-align: center;
     border-radius: 3px;
-}
-.btn:hover{
-     background-color: rgb(159, 185, 241) ;
-     cursor: pointer;
-     color: white;
-}
-
-  /* Stay Productive Style */
-
-
-  /* Testimonial style */
-
-
-  /* Footer style */
-  .footer{
-    background-color: #241449;
-    color: white;
-    padding: 50px 0;
   }
-
-.footer-col1{
-    margin-left: 15px; 
-}
-
-.footer-logo{
-    text-decoration: none;
-    color: white;
-}
-.footer-logo:hover{
+  .btn:hover {
+    background-color: rgb(159, 185, 241);
+    cursor: pointer;
     color: white;
   }
-
-.ft-dv{
-    margin-bottom: 30px;
 }
-
-.ft-col{
-    
-}
-
-  .footer-img{
-    
-    margin-right: 10px;
+@media (min-width: 700px) and (max-width: 1300px) {
+  .containerSctn1 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1%;
+    padding-top: 5%;
   }
-
-  .footer-h1{
+  .illus1 {
+    width: 400px;
+    height: 400px;
+    padding-right: 15%;
+  }
+  .heading {
+    font-size: 35px;
+    padding-top: 8%;
+    line-height: 30px;
+    margin-left: 20%;
+  }
+  .parag {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 30px;
+    padding-inline-end: 5%;
+    margin-left: 20%;
+  }
+  .inp {
+    display: flex;
+    gap: 0.5%;
+    margin-left: 20%;
+  }
+  .putin {
+    height: 45px;
+    width: 220px;
+    border-radius: 3px;
+    border-color: rgb(219, 216, 216);
+    border-width: 1px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    box-shadow: none;
+    overflow: hidden;
+    text-align: left;
+  }
+  .ulContainer {
+    display: inline;
     margin: 0;
+    padding: 0;
+  }
+  .ulContainer .li- {
     display: inline-block;
-    font-size: 50px;
-    position: relative;
-    top: 10px;
+  }
+  .ulContainer .li-:hover ul {
+    display: block;
+  }
+  .ulContainer .li- .ul- {
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+  .ulContainer .li- .ul- .li-- {
+    background: rgb(255, 255, 255);
+    display: block;
+    color: red;
   }
 
-.footer-link{
-    text-decoration: none;
+  .putin:hover {
+    border-color: red;
+  }
+  .btn {
+    width: 120px;
+    background-color: rgb(47, 101, 249);
+    height: 45px;
+    border: none;
     color: white;
-    font-size: 10px;
-    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 3px;
+  }
+  .btn:hover {
+    background-color: rgb(159, 185, 241);
+    cursor: pointer;
+    color: white;
+  }
 }
-.footer-link:hover{
-    color: rgb(91, 80, 136);
-}
-
-
-
-  /* At media styles */
-  /* section 1 */
-  @media (min-width: 320px) and (max-width: 760px) {
-    .containerSctn1{
-      display: block;
-      gap: 1%;
-      padding-top: 5%;
-      text-align: center;
-     
-  }
-  .illus1{
-      width: 420px;
-      height: 250px;
-      margin-left: 10%;
-      text-align: center;
-      /* padding-right: 24%; */
-  }
-  .heading{
-      font-size: 30px;
-      padding-top: 8%;
-      line-height: 30px;
-      margin-left: 4%;
-     
-  }
-  .parag{
-      font-size: 16px;
-      text-align: center;
-      line-height: 15px;
-      padding-inline-end: 5%;
-      margin-left: 7%;
-      margin-right: 4%;
-      
-  }
-  .inp{
-      display: block;
-      margin-left: 2%;
-      line-height:4 ;
-      text-align: center;
-  }
-  .putin{
-      height: 45px;
-      width: 340px;
-      border-radius: 3px;
-      border-color: rgb(24, 23, 23);
-      border-width: 1px;
-      font-size: 16px;
-      font-family:'Poppins', sans-serif; 
-    
-      box-shadow: none;
-      overflow: hidden;
-     
-      text-align: left;
-    
-  }
-  .ulContainer {
-      display: inline;
-      margin: 0;
-      padding: 0;
-    }
-    .ulContainer .li- {display: inline-block;}
-   
-    .ulContainer .li-:hover ul {display: block;}
-    .ulContainer .li- .ul- {
-      position: absolute;
-      width: 200px;
-      display: none;
-    }
-    .ulContainer .li- .ul- .li-- { 
-     
-      display: block; 
-      color: red;
-    }
-  
-  .putin:hover{
-      border-color: red;
-      
-  }
-  .btn{
-      width: 340px;
-      background-color:rgb(47,101,249);
-      height: 45px;
-      border: none;
-      color: white;
-      text-align: center;
-      border-radius: 3px;
-  }
-  .btn:hover{
-       background-color: rgb(159, 185, 241) ;
-       cursor: pointer;
-       color: white;
-  }
-  }
-  @media (min-width: 700px) and (max-width: 1300px) {
-    .containerSctn1{
-      display: flex;
-      flex-direction: row-reverse;
-      gap: 1%;
-      padding-top: 5%;
-     
-  }
-  .illus1{
-      width: 400px;
-      height:400px;
-      padding-right: 15%;
-  
-  }
-  .heading{
-      font-size: 35px;
-      padding-top: 8%;
-      line-height: 30px;
-      margin-left: 20%;
-     
-  }
-  .parag{
-      font-size: 18px;
-      text-align: justify;
-      line-height: 30px;
-      padding-inline-end: 5%;
-      margin-left: 20%;
-      
-  }
-  .inp{
-      display: flex;
-      gap: 0.5%;
-      margin-left: 20%;
-  }
-  .putin{
-      height: 45px;
-      width: 220px;
-      border-radius: 3px;
-      border-color: rgb(219, 216, 216);
-      border-width: 1px;
-      font-size: 16px;
-      font-family:'Poppins', sans-serif; 
-      box-shadow: none;
-      overflow: hidden;
-      text-align: left;
-    
-  }
-  .ulContainer {
-      display: inline;
-      margin: 0;
-      padding: 0;
-    }
-    .ulContainer .li- {display: inline-block;}
-    .ulContainer .li-:hover ul {display: block;}
-    .ulContainer .li- .ul- {
-      position: absolute;
-      width: 200px;
-      display: none;
-    }
-    .ulContainer .li- .ul- .li-- { 
-      background: rgb(255, 255, 255); 
-      display: block; 
-      color: red;
-    }
-  
-  .putin:hover{
-      border-color: red;
-      
-  }
-  .btn{
-      width: 120px;
-      background-color:rgb(47,101,249);
-      height: 45px;
-      border: none;
-      color: white;
-      text-align: center;
-      border-radius: 3px;
-  }
-  .btn:hover{
-       background-color: rgb(159, 185, 241) ;
-       cursor: pointer;
-       color: white;
-  }
-  }
