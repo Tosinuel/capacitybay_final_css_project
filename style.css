@@ -97,6 +97,9 @@
     color: red;
   }
 
+  ::placeholder {
+    padding: 20px;
+  }
 .putin:hover{
     border-color: red;
     
@@ -210,7 +213,11 @@
   font-weight: 700;
 }
 @media (min-width:370px) and (max-width:660px) {
-  .testimonial {
+  #logo {
+    width: 70px;
+  }
+
+.testimonial {
     width:100%;
     word-spacing: 1px;
   }
@@ -247,6 +254,7 @@
     position: relative;
     bottom: 10px;
   }
+
 }
 
   /* Testimonial style */
@@ -281,7 +289,7 @@
 
   .right1{
     width: 500px;
-    height: 35px;
+    height: 60px;
     padding-left: 20px;
     font-size: 12px;
     border-radius: 3px;
@@ -289,8 +297,8 @@
   }
 
   .right2{
-    width: 150px;
-    height: 35px;
+    width: 500px;
+    height: 60px;
     background-color: rgb(17, 83, 197);
     color: #ffff;
     font-size: 12px;
@@ -578,5 +586,13 @@
        background-color: rgb(159, 185, 241) ;
        cursor: pointer;
        color: white;
+  }
+  .news {
+    display: grid;
+  }
+  .right1, .right2 {
+    width: 100%;
+    height: 90px;
+    padding: 30px;
   }
   }
