@@ -25,7 +25,7 @@
 .topnav a.split {
     float: right;
     background-color: white;
-    color: gray;
+    color: rgb(75, 75, 75);
   }
 
 
@@ -46,8 +46,9 @@
 .heading{
     font-size: 40px;
     padding-top: 8%;
-    line-height: 60px;
+    line-height: 70px;
     margin-left: 17%;
+    color: #241449;
    
 }
 .parag{
@@ -69,7 +70,7 @@
     border-radius: 3px;
     border-color: rgb(219, 216, 216);
     border-width: 1px;
-    font-size: 16px;
+    font-size: 14px;
     font-family:'Poppins', sans-serif; 
     /* padding-left: 2%; */
     box-shadow: none;
@@ -95,6 +96,10 @@
     background: rgb(255, 255, 255); 
     display: block; 
     color: red;
+    font-size: 12px;
+  }
+  .li--{
+    margin-left: -30px;
   }
 
 .putin:hover{
@@ -117,7 +122,13 @@
 }
 
   /* Stay Productive Style */
-     
+ .staytxt{
+  font-size: 14px;
+ }
+
+ .container{
+  margin-left: 0;
+ }
   .stayPro{
     margin-top: 100px;
   }
@@ -157,10 +168,11 @@
   }
 
   .stayImg2{
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 250px;
     float: right;
     margin-left: 20px;
+    padding-left: 50px;
   }
 
 
@@ -182,14 +194,14 @@
   border-radius: 5px;
   padding: 25px;
   margin-top: 40px;
-  width: 450px;
+  width: 300px;
 }
 
 .testimonial p {
-  font-size: 14px;
+  font-size: 10px;
   letter-spacing: 1px;
   line-height: 1.7;
-  width: 400px;
+  width: 250px;
 }
 
 .user-info {
@@ -210,9 +222,18 @@
   font-weight: 700;
 }
 
+.kyle{
+  font-size: 12px;
+  margin-bottom: -5px;
+ 
+}
+.ceo{
+  margin-top: 0;
+  font-size: 8px;
+}
   /* Testimonial style */
   .news{
-    height: 35vh;
+    height: 55vh;
     width: 100%;
     background-color: rgb(87,89,137);
     display: flex;
@@ -241,23 +262,29 @@
   }
 
   .right1{
-    width: 500px;
+    width: 350px;
     height: 35px;
     padding-left: 20px;
     font-size: 12px;
     border-radius: 3px;
     border: none;
+    
+  }
+  .txt{
+    color: rgb(229, 224, 224);
+    font-size: smaller;
+   
   }
 
   .right2{
     width: 150px;
-    height: 35px;
+    height: 30px;
     background-color: rgb(17, 83, 197);
     color: #ffff;
     font-size: 12px;
     border-radius: 4px;
     border: none;
-  }
+    }
 
   .right2:hover{
     background-color: rgb(108,156,255);
