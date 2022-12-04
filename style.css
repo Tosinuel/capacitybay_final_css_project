@@ -557,23 +557,23 @@ padding-bottom: 50%;
 }
 
 .right1{
-width: 250px;
+width: 330px;
 height: 40px;
 margin-left: 10px;
 font-size: 12px;
 border: none;
-border-radius: 1px;
+border-radius: 3px;
 text-align: left;
 }
 
 .right2{
-width: 250px;
+width: 330px;
 height: 40px;
 background-color: rgb(47,101,249);
 color: #ffff;
 font-size: 12px;
 border: none;
-border-radius: 1px;
+border-radius: 3px;
 margin-left: 10px;
 }
 
