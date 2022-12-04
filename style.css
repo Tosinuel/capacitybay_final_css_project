@@ -557,7 +557,7 @@ padding-bottom: 50%;
 }
 
 .right1{
-width: 330px;
+width: 280px;
 height: 40px;
 margin-left: 10px;
 font-size: 12px;
@@ -566,8 +566,9 @@ border-radius: 3px;
 text-align: left;
 }
 
+
 .right2{
-width: 330px;
+width: 280px;
 height: 40px;
 background-color: rgb(47,101,249);
 color: #ffff;
